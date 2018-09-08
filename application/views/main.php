@@ -7,7 +7,7 @@
       </title>
    </head>
    <body><center>
-   <form action="index.php/cutter/unew" method="post">
+   <form action="cutter/unew" method="post">
    <h2>Ссылка для сокращения:</h2>
    <p><input type="text" name="orig" /></p>
 <p><input type="submit" /></p>
