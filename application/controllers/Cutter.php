@@ -18,7 +18,7 @@ class Cutter extends CI_Controller
         if (isset($_POST['orig'])) {
         $this->load->model('cutter_model');
         $new_url = $this->cutter_model->create_url($_POST['orig']);
-        $data['add'] = base_url().'cutter/uget/'.$new_url;
+        $data['add'] = base_url().$new_url;
         $this->load->view('unew', $data);
         }
         else {

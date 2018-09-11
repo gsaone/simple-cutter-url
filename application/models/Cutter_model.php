@@ -17,7 +17,7 @@ class Cutter_model extends CI_Model
             'M','N','O','P','R','S','T','U','V','W','X','Y',
             'Z','F','1','2','3','4','5','6','7','8','9','0');
         $url = '';
-        for ($i = 0; $i < 6; $i ++) {
+        for ($i = 0; $i < 8; $i ++) {
             $random = rand(0, count($arr) - 1);
             $url .= $arr[$random];
         }
