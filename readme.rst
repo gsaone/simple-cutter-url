@@ -1,5 +1,5 @@
 ###################
-# Simple cutter url
+Simple cutter url
 ###################
 Example of link shortening service using the framework CodeIgniter 3.
 
