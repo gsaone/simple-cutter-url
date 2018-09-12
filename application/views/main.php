@@ -3,12 +3,12 @@
    <head>
       <meta charset="utf-8">
       <title>
-         Пример обрезателя ссылок
+         Simple cutter url
       </title>
    </head>
    <body><center>
    <form action="cutter/unew" method="post">
-   <h2>Ссылка для сокращения:</h2>
+   <h2>Enter your link:</h2>
    <p><input type="text" name="orig" /></p>
 <p><input type="submit" /></p>
  </form>
